@@ -15,7 +15,7 @@ public class Main {
 
         while (var3.hasNext()){
             String key = var3.next();
-            System.out.println(ket + "->" + histogram.get(key));
+            System.out.println(key + "->" + histogram.get(key));
         }
     }
 }
